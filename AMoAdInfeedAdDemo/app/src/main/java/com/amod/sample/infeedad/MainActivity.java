@@ -97,6 +97,10 @@ public class MainActivity extends AppCompatActivity {
             //アイテム取得
             final List<MyItem> items = getMyItems();
 
+            //ネット接続制限時間を設定する(設定しないと15秒になる)
+            InfeedAd.setConnectTimeout(2);
+            //広告読み込み制限時間を設定する(設定しないと15秒になる)
+            InfeedAd.setReadTimeout(5);
             //TODO 2.広告を取得する
             InfeedAd.load(getApplicationContext(), SID, new InfeedAdLoadListener() {
                 @Override
