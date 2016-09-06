@@ -5,4 +5,4 @@
 # AMoAd InfeedAd Demo for Android
 このリポジトリは現在、使われておりません。
 
-Cocos2d-x版のネイティブHTML広告については[こちら](https://github.com/amoad/amoad-android-sdk)のリポジトリをご参照ください。
+Infeed広告については[こちら](https://github.com/amoad/amoad-android-sdk)のリポジトリをご参照ください。
